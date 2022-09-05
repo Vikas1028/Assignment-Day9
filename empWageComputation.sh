@@ -13,3 +13,5 @@ case $a in
 1)echo "Employee is Present"
   echo "Daily Wage :"$EDW
 esac
+
+echo "Wages for a Month :" $((EDW*20))
